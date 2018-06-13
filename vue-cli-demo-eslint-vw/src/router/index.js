@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 import NotFound from '../pages/NoFind.vue'
 import Home from '../pages/Home.vue'
 import Openwindow from '../components/Openwindow.vue'
@@ -19,11 +18,6 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
-    },
-    {
-      path: '/HelloWorld',
-      name: 'HelloWorld',
-      component: HelloWorld
     },
     {
       path: '/Contant',
