@@ -21,14 +21,14 @@ npm run build --report
 ```
 
 ## px-to-viewport
-[https://www.w3cplus.com/mobile/vw-layout-in-vue.html](https://www.w3cplus.com/mobile/vw-layout-in-vue.html "大漠参考借鉴地址")
+参考：[https://www.w3cplus.com/mobile/vw-layout-in-vue.html](https://www.w3cplus.com/mobile/vw-layout-in-vue.html "大漠参考借鉴地址")
 
 ``` bash
 # install dependencies
 npm i postcss-aspect-ratio-mini postcss-px-to-viewport postcss-write-svg postcss-cssnext postcss-viewport-units cssnano --S
 
 ```
-# modify .postcssrc.js
+### modify .postcssrc.js
 ``` js
 module.exports = {
   "plugins": {
@@ -58,7 +58,7 @@ module.exports = {
 }
 ```
 
-## 兼容各类手机浏览器 index.html添加
+### 兼容各类手机浏览器 index.html添加
 ``` html
 <script src="//g.alicdn.com/fdilab/lib3rd/viewport-units-buggyfill/0.6.2/??viewport-units-buggyfill.hacks.min.js,viewport-units-buggyfill.min.js"></script>
 <script>
