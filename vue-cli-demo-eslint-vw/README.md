@@ -21,7 +21,8 @@ npm run build --report
 ```
 
 ## px-to-viewport
-参考：[https://www.w3cplus.com/mobile/vw-layout-in-vue.html](https://www.w3cplus.com/mobile/vw-layout-in-vue.html "大漠参考借鉴地址")
+大漠参考借鉴地址（原地址）：[https://www.w3cplus.com/mobile/vw-layout-in-vue.html](https://www.w3cplus.com/mobile/vw-layout-in-vue.html "大漠参考借鉴地址")
+简书地址：[https://www.jianshu.com/p/1f1b23f8348f](https://www.jianshu.com/p/1f1b23f8348f "简书参考借鉴地址")
 
 ``` bash
 # install dependencies
