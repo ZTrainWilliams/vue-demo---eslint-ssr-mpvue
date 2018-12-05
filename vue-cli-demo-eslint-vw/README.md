@@ -29,7 +29,7 @@ npm run build --report
 npm i postcss-aspect-ratio-mini postcss-px-to-viewport postcss-write-svg postcss-cssnext postcss-viewport-units cssnano --S
 
 ```
-### modify .postcssrc.js
+### 在src目录下添加文件 .postcssrc.js
 ``` js
 module.exports = {
   "plugins": {
